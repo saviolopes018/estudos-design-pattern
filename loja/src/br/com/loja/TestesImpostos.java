@@ -9,7 +9,7 @@ import br.com.loja.orcamento.Orcamento;
 public class TestesImpostos {
 
 	public static void main(String[] args) {
-		Orcamento orcamento = new Orcamento(new BigDecimal("100"));
+		Orcamento orcamento = new Orcamento(new BigDecimal("100"), 1L);
 		CalculadoraDeImpostos calculadora = new CalculadoraDeImpostos();
 		System.out.println(calculadora.calcular(orcamento, new ICMS()));
 	}
