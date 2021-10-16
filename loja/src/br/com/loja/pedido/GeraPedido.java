@@ -9,7 +9,6 @@ public class GeraPedido {
 	private Long quantidadeItens;
 	
 	public GeraPedido(String cliente, BigDecimal valorOrcamento, Long quantidadeItens) {
-		super();
 		this.cliente = cliente;
 		this.valorOrcamento = valorOrcamento;
 		this.quantidadeItens = quantidadeItens;
